@@ -12,6 +12,10 @@
     box-shadow: 0px 8px 6px -6px gray;
     font-family: "Rubik", serif;
     border-bottom: 0.3px solid gray !important;
+    position: sticky;
+    
+    top: 0;
+
 }
 .nav-link
 {
@@ -76,3 +80,25 @@
     background-color: black;
     color: white;
 }
+
+/* =======register.css===== */
+
+.register
+{
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .mysection
+{
+    position: absolute;
+    z-index: -1;
+}
+.mycon
+{
+    position: absolute;
+    z-index: -1;
+} */

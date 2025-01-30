@@ -3,7 +3,7 @@ import Layout from "../components/Layout/Layout";
 
 const Contact = () => {
   return (
-    <Layout>
+    <Layout title="contact-us" description="this is the contact us page" keywords="ecommerce jobs,ecommerce solutions">
       <div className="container py-5">
         <div className="row align-items-center">
           {/* Left Side: Image */}

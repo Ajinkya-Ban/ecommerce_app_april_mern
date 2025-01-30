@@ -6,7 +6,7 @@ const About = () => {
     <Layout
       title="About us-Ecommerce App"
       description="This is about us page"
-      keywords="about, aboutus, ecomm"
+      keywords="ecommerce, ecommerce store, ecommerce marketing"
     >
       <div className="container py-3">
         <div className="row align-items-center">
