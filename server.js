@@ -5,6 +5,7 @@ import env from 'dotenv';
 import connectDB from './config/db.js';
 import morgan from 'morgan';
 import authRoutes from './routes/authRoutes.js'
+import cors from 'cors';
 
 //configure dotenv file
 env.config()
@@ -18,7 +19,7 @@ const app = express();
 //use middlewares
 app.use(express.json());
 app.use(morgan('combined'));
-
+app.use(cors());
 
 //define our root paths
 app.use("/api/v1/auth", authRoutes);

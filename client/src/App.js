@@ -1,27 +1,26 @@
-import './App.css';
+import "./App.css";
 
-import {Routes, Route} from 'react-router-dom';
-import About from './pages/About';
-import HomePage from './pages/HomePage';
-import Contact from './pages/Contact';
-import PageNotFound from './pages/PageNotFound';
-import Policy from './pages/Policy';
-import Register from './pages/Register';
-import Login from './pages/Login';
-
+import { Routes, Route } from "react-router-dom";
+import About from "./pages/About";
+import HomePage from "./pages/HomePage";
+import Contact from "./pages/Contact";
+import PageNotFound from "./pages/PageNotFound";
+import Policy from "./pages/Policy";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 function App() {
   return (
     <>
-   <Routes>
-    <Route path='/' element={<HomePage />} ></Route>
-    <Route path='/register' element={<Register />} ></Route>
-    <Route path='/login' element={<Login />} ></Route>
-    <Route path='/about' element={<About />} ></Route>
-    <Route path='/contact' element={<Contact />} ></Route>
-    <Route path='/policy' element={<Policy />} ></Route>
-    <Route path='*' element={<PageNotFound />} ></Route>
-   </Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/policy" element={<Policy />}></Route>
+        <Route path="*" element={<PageNotFound />}></Route>
+      </Routes>
     </>
   );
 }
