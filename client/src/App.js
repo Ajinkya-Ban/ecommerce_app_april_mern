@@ -8,12 +8,14 @@ import PageNotFound from "./pages/PageNotFound";
 import Policy from "./pages/Policy";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Dashboard from "./pages/user/Dashboard";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="Dashboard" element={<Dashboard></Dashboard>}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/about" element={<About />}></Route>

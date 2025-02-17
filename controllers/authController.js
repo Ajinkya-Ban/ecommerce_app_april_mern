@@ -123,3 +123,9 @@ export const loginController = async (req, res) => {
     });
   }
 };
+
+// testcontrooler
+
+export const testController = (req, res) => {
+  res.send("Protected middleware accessed");
+};
